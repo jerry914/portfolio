@@ -56,8 +56,8 @@ export default {
                     Authors: 'Jerry / Heidi',
                     images: [],
                     link: '',
-                    text: 'Created: 2022 Summer',
-                    body: ''
+                    text: 'Created: 2022 Sprint',
+                    body: '<h1>Spy Light</h1><p>We turned our classroom into a MIDI instrument installation. We unplugged the daylight lamps and replaced them with lamps made of controllable LED strips. By integrating a Raspberry Pi, we gained control over the color of the LED strips.</p><p>Participants can connect to the interface via their cell phones, granting them the freedom to manipulate the light bar at will. As they make their choices, the light bar transforms, showcasing a dynamic array of colors and patterns.</p><p>But it doesn\'t stop there—music accompanies the visual display. As the light bar changes color, the music adapts in sync, creating a captivating and immersive experience.</p><p>What makes this installation truly unique is its collaborative nature. Anyone can join in, playing together to create a symphony of light and sound. It\'s an interactive and engaging art form that brings people together.</p><p>Step into the world of "Spy Light" and discover the joy of controlling light and music through your fingertips. It\'s a fusion of technology, art, and human expression, offering a transformative and mesmerizing journey.</p>'
                 },
                 {
                     name: 'dino-run',
@@ -66,8 +66,8 @@ export default {
                     video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3naT_fbw-04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
                     images: [''],
                     link: '',
-                    text: 'Created: 2022 Summer',
-                    body: ''
+                    text: 'Created: 2021 Summer',
+                    body: '<p>"Dino Run: Physical Edition" brings to life the exhilarating experience of Google Chrome\'s offline dinosaur game in a tangible and interactive form. This creative project combines the power of Raspberry Pi and Processing to create a physical version of the beloved dinosaur game. Get ready to ride the dinosaur, jump over cacti, and aim for a high score, but beware, hitting a cactus means game over!</p><p>Have you ever found yourself frustrated with a slow or interrupted internet connection, only to find solace in Google Chrome\'s charming offline dinosaur game? "Dino Run: Physical Edition" takes that nostalgic experience and elevates it to a whole new level.</p><p>In this physical adaptation, participants can actually ride the dinosaur as they navigate the treacherous desert landscape. Construct with a Raspberry Pi and Processing, the game environment comes to life, complete with obstacles and challenges. With each jump, participants must time their movements carefully to dodge cacti and avoid collision. A single misstep means losing the game and having to start again.</p><p>"Dino Run: Physical Edition" invites players to immerse themselves in a playful and interactive experience. The physicality of the game adds an extra layer of engagement, as participants can feel the excitement and adrenaline as they control the dinosaur\'s movements. It\'s a thrilling combination of technology, nostalgia, and physical interaction.</p><p>Whether you\'re reliving the joy of the Google Chrome dinosaur game or encountering it for the first time, "Dino Run: Physical Edition" offers a unique and captivating experience. Get ready to jump, dodge, and run as you embark on a thrilling adventure in this physical adaptation of the popular offline game. How far can you make it before the cacti bring your dino run to an end?</p>'
                 },
                 {   
                     name: 'myFriend',
@@ -80,55 +80,55 @@ export default {
                 },
                 {   
                     name: 'marble',
-                    title: '印象清華-躍動彈珠',
-                    tags: ['#會動','#marble','#凸輪軸',"#woodworker"],
+                    title: 'Impression Tsinghua - Jumping Marble',
+                    tags: ['#marble',"#laser cutting", "#3D Print"],
                     video: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/uF_Hw3-noXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
                     images: ['https://drive.google.com/uc?export=view&id=1ccDk2twyFoaDZxqSL_brrUTWVDy-w73N','https://drive.google.com/uc?export=view&id=1pJuu6KhOwv-nioM6LK_PxDXRN15QQWsd','https://drive.google.com/uc?export=view&id=1nuxZIny4eEZ0SInx0dYNbgwh07VUc_Un','https://drive.google.com/uc?export=view&id=1a7A-kPphw3uIofdz2eYBXRBV_jo2qIS1'],
                     link: 'https://techart.nthu.edu.tw/THE2019/cross-media-2019/%e8%ba%8d%e5%8b%95%e5%bd%88%e7%8f%a0/',
-                    text: '製作日期：2019夏'
+                    text: 'Created: 2019 Summer',
                 },
                 {   
                     name: 'lightArt',
-                    title: '印象清華-花語清華',
+                    title: 'Impression Tsinghua-Flower Tsinghua',
                     tags: ['#LED','#Arduino'],
                     video: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6dERp8GAffI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
                     images: ['https://drive.google.com/uc?export=view&id=1uBHA-vTjDiw44ngD0f5_OYfgRDXsHoNd','https://drive.google.com/uc?export=view&id=1W_BoW9rPKLhw-KZn6e6Yhw2iOoBg-S5D'],
                     link: 'https://techart.nthu.edu.tw/THE2019/cross-media-2019/%e8%8a%b1%e8%aa%9e%e6%b8%85%e8%8f%af/',
-                    text: '製作日期：2019夏',
-                    body: '<div>負責燈光製作，第一次嘗試控制大量LED，得到超多慘痛教訓，參展真是太有趣了。</div>'
+                    text: 'Created: 2019 Summer',
+                    body: ''
                 },
                 {
-                    name: 'magicClock',
-                    title: '小明的魔法時鐘',
-                    tags: ['#Processing','#face detection'],
+                    name: "magicClock",
+                    title: "Little Ming's Magic Clock",
+                    tags: ["#Processing", "#face detection"],
                     video: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/obnwbJ0qgsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-                    text: '製作日期：2018冬',
-                    body: '<h3>作品動機</h3><div>有一天，老師帶學生們去一座神奇的博物館戶外教學，老師介紹這裡有屬於每個人的獨一無二的時鐘，時針的轉速會隨著一個人的智商越高而越慢。每個人都快樂地找到屬於自己的時鐘，只有小明一直找不到，他苦惱地問老師：「老師老師，我怎麼都找不到我的時鐘？」老師想了很久，突然大喊一聲：「啊！你的時鐘被我拿來當電風扇了……」我們想讓小明的時鐘實現，經歷了激烈的爭辯，決定讓簡單又不失難度的記憶遊戲成為決定智商的依據，並影響時鐘轉速。遊戲時玩家須記住花園鰻出現的位置，答題時照順序點擊即可，答對可得一分並進入下一關，答錯會被擷取頭像，然後看到自己出現在虛擬時鐘上。</div>'
+                    text: "Date of Creation: Winter 2018",
+                    body: "<h3>Motivation</h3><div>One day, the teacher took the students on a field trip to a magical museum. The teacher introduced them to unique clocks that belonged to each person. The speed of the clock's hour hand would slow down as a person's intelligence quotient (IQ) increased. Everyone joyfully found their own clocks except for Little Ming. He couldn't find his and asked the teacher in distress, 'Teacher, why can't I find my clock?' After thinking for a while, the teacher suddenly exclaimed, 'Ah! I took your clock to use it as a fan...' We wanted to bring Little Ming's clock to life. After intense debates, we decided to make a simple yet challenging memory game determine the IQ and influence the clock's speed. In the game, players need to remember the positions of garden eels and click them in order. Each correct answer earns a point and advances to the next level. An incorrect answer results in the player's picture being captured, and they see themselves appearing on the virtual clock.</div>"
                 },
                 {
-                    name: 'creator',
-                    title: '程式織花系列',
-                    tags: ["#Processing",'#3D'],
-                    video: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fxMRFplesrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-                    text: '製作日期：2020春',
-                    images: ['https://drive.google.com/uc?export=view&id=14h6bpPbycZU8fCrhMS9HqxzXPURiDbjp','https://drive.google.com/uc?export=view&id=1khdeAYyQcRJyMrZvYr0UtGdzBBOUopDw','https://drive.google.com/uc?export=view&id=1CSerdNAbRu5JlmnGje1ytBpQcjvWC9SI','https://drive.google.com/uc?export=view&id=1jO7uNJdPmofU4z2ut65ZNg82a520CtnL','https://drive.google.com/uc?export=view&id=1d3ekYSq0-cNzA07oKLhBp_aIeQZwwU9q'],
-                    link: 'https://www.youtube.com/watch?v=kgjCyCfx-hc&list=PL16mWWvmOPO3Lmdiy2BOBM8Ey37Xx4v3e',
-                    body: '<div>這系列一共有五部作品，分別代表各種盛開的花朵。我相信，不管是再多貧脊的地方，都能綻放出美麗的花朵。</div>'
+                    "name": "creator",
+                    "title": "Programmatic Weaving Series",
+                    "tags": ["#Processing", "#3D"],
+                    "video": '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fxMRFplesrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                    "text": "Date of Creation: Spring 2020",
+                    "images": ["https://drive.google.com/uc?export=view&id=14h6bpPbycZU8fCrhMS9HqxzXPURiDbjp", "https://drive.google.com/uc?export=view&id=1khdeAYyQcRJyMrZvYr0UtGdzBBOUopDw", "https://drive.google.com/uc?export=view&id=1CSerdNAbRu5JlmnGje1ytBpQcjvWC9SI", "https://drive.google.com/uc?export=view&id=1jO7uNJdPmofU4z2ut65ZNg82a520CtnL", "https://drive.google.com/uc?export=view&id=1d3ekYSq0-cNzA07oKLhBp_aIeQZwwU9q"],
+                    "link": "https://www.youtube.com/watch?v=kgjCyCfx-hc&list=PL16mWWvmOPO3Lmdiy2BOBM8Ey37Xx4v3e",
+                    "body": "<div>This series consists of five works, each representing various blooming flowers. I believe that even in the most impoverished places, beautiful flowers can blossom.</div><h3>Work Introduction</h3><div>In the Programmatic Weaving series, I explore the intersection of technology and art to create mesmerizing three-dimensional representations of flowers. Through the power of Processing, I bring these virtual flowers to life, showcasing their delicate petals, vibrant colors, and intricate patterns.</div>"
                 },
                 {
-                    name: 'chesweeper',
-                    title: '週期表踩地雷',
-                    tags: ["#P5.js"],
-                    video: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cxGfMhwO3LM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-                    text: '製作日期：2018夏',
-                    link: 'https://jerry914.github.io/Chesweeper/',
-                    body: '<div>背週期表太無聊？試試週期表踩地雷！</div>'
+                    "name": "chesweeper",
+                    "title": "Periodic Table Minesweeper",
+                    "tags": ["#P5.js"],
+                    "video": '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cxGfMhwO3LM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                    "text": "Date of Creation: Summer 2018",
+                    "link": "https://jerry914.github.io/Chesweeper/",
+                    "body": "<div>Tired of memorizing the periodic table? Try Periodic Table Minesweeper!</div><h3>Work Introduction</h3><div>In the Periodic Table Minesweeper game, I combined the challenge of the classic Minesweeper game with the elements of the periodic table. Players can test their knowledge of the elements while having fun and strategizing to avoid mines hidden within the table.</div>"
                 },
                 {
                     name: 'chicken',
                     title: 'Chicken Attack',
                     video: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-OftYFll5qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-                    text: '製作日期：2019夏',
+                    text: 'Date of Creation: Summer 2019',
                     images: ['https://drive.google.com/uc?export=view&id=1iuGmli0davOC1kt9QIKnmYKN7yczT2W5'],
                     tags: ['#Unity'],
                     body: '<div>被17年的洗腦神曲深深支配，只好來一場 Chicken Attack。</div>'
@@ -138,8 +138,8 @@ export default {
                     title: 'Arduino！',
                     tags: ['After Effects','Expression'],
                     images: ['https://drive.google.com/uc?export=view&id=1aZVbtZZ3KovhsDQboloh3c3I3oR0d37W'],
-                    text: '製作日期：2020春',
-                    body: '<div>Arduino簡直是精神時光屋，有好多值得玩樂的事物。</div><br><div>第一次玩Expression，太喜歡這個玩法了。</div>'
+                    text: 'Date of Creation: Sprint 2020',
+                    body: '<div>Arduino is like a time machine for the mind, with so many fun things to explore.</div><br><div>First time playing with Adobe AE\'s Expression, absolutely love this way of playing.</div>'
                 },
                 {
                     name: 'disconnect',
@@ -147,8 +147,8 @@ export default {
                     tags: ['P5.js','Pure Data'],
                     video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/tYBtRFNiCSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
                     images: ['https://raw.githubusercontent.com/jerry914/mywebsite/master/img/av (4).jpg'],
-                    text: '製作日期：2021春',
-                    body: ''
+                    text: 'Date of Creation: Sprint 2021',
+                    body: '<p>"Disconnect" is an audio-visual performance that explores the concept of disconnection in our modern digital age. Through a captivating blend of visual art and audio elements, this artwork invites viewers to contemplate the effects of technology on our lives and the importance of finding moments of disconnect.</p><p>Step into a mesmerizing world where fantasy and reality converge. Experience the transformation of a small dinosaur, symbolizing the various fantasies and dreams that arise when we detach ourselves from the constant stream of digital information. The artwork serves as a reminder to embrace moments of disconnection and allow our minds to wander freely.</p><p>Utilizing the power of P5.js and Pure Data, "Disconnect" creates a multisensory experience, engaging both the visual and auditory senses. The carefully crafted visuals and synchronized audio elements take viewers on a journey of introspection and contemplation.</p>'
                 }
             ]
         }

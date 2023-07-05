@@ -36,7 +36,7 @@ export default {
         {src: 'https://drive.google.com/uc?export=view&id=1WO1DtTjk5aWbfWmYAAfS05k3On-puVKN',title: '',text: 'Soulmate in Motion',url:'/myFriend'},
         {src: 'https://github.com/jerry914/mywebsite/blob/master/img/%231.gif?raw=true', title: '', text: 'Program Weaving Series', url: '/creator'},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/ubicomp.png',title: '',text: 'Mimsvai: Human-Computer Interaction Workshop Website',url:'', new_url:'https://mimsvai.github.io/'},
-        {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/junyi.png',title: '',text: 'Magic Pocket of Primary School Students',url: '',new_url:'https ://www.junyiacademy.org/article/13e71653374f4531b3028b8c3a8bc242'},
+        {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/junyi.png',title: '',text: 'Magic Pocket of Primary School Students',url: '',new_url:'https://www.junyiacademy.org/article/13e71653374f4531b3028b8c3a8bc242'},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/edu-3.jpg',title: '',text: 'Raspberry Foundation - Translate Volunteer',url:''},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/web-1.png',title: '',text: 'Aesthetic education platform sub-project website construction, responsible for the front-end webpage design. ',url:''},
         {src: 'https://drive.google.com/uc?export=view&id=1aZVbtZZ3KovhsDQboloh3c3I3oR0d37W',title: '',text: 'Ardiuino! ',url: '/mg'},
