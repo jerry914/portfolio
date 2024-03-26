@@ -1,9 +1,9 @@
 <template lang="pug">
 #IntroPage
-    router-link(to='/')
+    router-link(to='/work')
         .introBw
-    .introContainer
-        router-link(to='/')
+    .introContainer(v-motion-slide-visible-top)
+        router-link(to='/work')
             .exitBtn X
         h1 {{pageDatas[idx].title}}
         .tagContainer
@@ -83,7 +83,7 @@ export default {
                     title: 'Impression Tsinghua - Jumping Marble',
                     tags: ['#marble',"#laser cutting", "#3D Print"],
                     video: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/uF_Hw3-noXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-                    images: ['https://drive.google.com/uc?export=view&id=1ccDk2twyFoaDZxqSL_brrUTWVDy-w73N','https://drive.google.com/uc?export=view&id=1pJuu6KhOwv-nioM6LK_PxDXRN15QQWsd','https://drive.google.com/uc?export=view&id=1nuxZIny4eEZ0SInx0dYNbgwh07VUc_Un','https://drive.google.com/uc?export=view&id=1a7A-kPphw3uIofdz2eYBXRBV_jo2qIS1'],
+                    images: [],
                     link: 'https://techart.nthu.edu.tw/THE2019/cross-media-2019/%e8%ba%8d%e5%8b%95%e5%bd%88%e7%8f%a0/',
                     text: 'Created: 2019 Summer',
                 },
@@ -111,7 +111,7 @@ export default {
                     "tags": ["#Processing", "#3D"],
                     "video": '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fxMRFplesrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
                     "text": "Date of Creation: Spring 2020",
-                    "images": ["https://drive.google.com/uc?export=view&id=14h6bpPbycZU8fCrhMS9HqxzXPURiDbjp", "https://drive.google.com/uc?export=view&id=1khdeAYyQcRJyMrZvYr0UtGdzBBOUopDw", "https://drive.google.com/uc?export=view&id=1CSerdNAbRu5JlmnGje1ytBpQcjvWC9SI", "https://drive.google.com/uc?export=view&id=1jO7uNJdPmofU4z2ut65ZNg82a520CtnL", "https://drive.google.com/uc?export=view&id=1d3ekYSq0-cNzA07oKLhBp_aIeQZwwU9q"],
+                    "images": [],
                     "link": "https://www.youtube.com/watch?v=kgjCyCfx-hc&list=PL16mWWvmOPO3Lmdiy2BOBM8Ey37Xx4v3e",
                     "body": "<div>This series consists of five works, each representing various blooming flowers. I believe that even in the most impoverished places, beautiful flowers can blossom.</div><h3>Work Introduction</h3><div>In the Programmatic Weaving series, I explore the intersection of technology and art to create mesmerizing three-dimensional representations of flowers. Through the power of Processing, I bring these virtual flowers to life, showcasing their delicate petals, vibrant colors, and intricate patterns.</div>"
                 },

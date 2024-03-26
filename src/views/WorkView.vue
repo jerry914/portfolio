@@ -1,23 +1,15 @@
 <template lang="pug">
 .home
   router-view
-  h2.title CHIEH-JUI HO (Jerry)
-  .iconLinkContainer
-    a.iconLink(href="https://github.com/jerry914" target="blank")
-      img(src="https://raw.githubusercontent.com/jerry914/mywebsite/master/img/github.svg" style="margin-top:45px;margin-right:20px;")
-    a.iconLink(href="https://www.youtube.com/channel/UCX1sbFMLyGrIF681s9TJ81A" target="blank")
-      img(src="https://raw.githubusercontent.com/jerry914/mywebsite/master/img/youtube.png" style="margin-top:50px;")
+  //- a.iconLink(href="https://github.com/jerry914" target="blank")
+  //-   img(src="https://raw.githubusercontent.com/jerry914/mywebsite/master/img/github.svg" style="margin-top:45px;margin-right:20px;")
   .cardContainer
-    #Card(v-for="(card,i) in cards" :style="{'background-image': 'url(' + card.src + ')'}")
+    #Card(v-for="(card,i) in cards" :style="{'background-image': 'url(' + card.src + ')'}" v-motion-pop-visible)
       h2.CardTitle {{card.title}}
       .mask(v-if="card.new_url"  @click="changePath(card.new_url)")
-      router-link(v-if="card.url" :to='card.url')
+      router-link(v-if="card.url" :to="'work'+card.url")
         .mask(v-bind:class="card.url ? 'pcursor':'pdef'")
       .maskText(v-if="card.url || card.new_url" style="opacity:1;") {{card.text}} →
-     
-    .footContainer 
-      p jerryjp3914@gmail.com
-      p CHIEH-JUI HO , 2023
 </template>
 
 <script>
@@ -31,15 +23,15 @@ export default {
         {src: 'https://mag.clab.org.tw/wp-content/uploads/2021/04/I2A4149.jpg', title: '', text: 'Homo Vegetation', url: '/homo-vegetation'},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/av.jpg',title: '',text: 'Disconnect',url: '/disconnect'},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/dinoRun.png',title: '',text: 'Dino Run!',url: '/dino-run'},
-        {src: 'https://drive.google.com/uc?export=view&id=1a7A-kPphw3uIofdz2eYBXRBV_jo2qIS1',title: '',text: 'Impression Tsinghua - Jumping Marble',url:'/marble'},
-        {src: 'https://drive.google.com/uc?export=view&id=1W_BoW9rPKLhw-KZn6e6Yhw2iOoBg-S5D',title: '',text: 'Impression Tsinghua-Flower Tsinghua',url: '/lightArt'},
-        {src: 'https://drive.google.com/uc?export=view&id=1WO1DtTjk5aWbfWmYAAfS05k3On-puVKN',title: '',text: 'Soulmate in Motion',url:'/myFriend'},
+        {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/marble.jpg',title: '',text: 'Impression Tsinghua',url:'/marble'},
+        // {src: 'https://drive.google.com/uc?export=view&id=1W_BoW9rPKLhw-KZn6e6Yhw2iOoBg-S5D',title: '',text: 'Impression Tsinghua-Flower Tsinghua',url: '/lightArt'},
+        // {src: 'https://drive.google.com/uc?export=view&id=1WO1DtTjk5aWbfWmYAAfS05k3On-puVKN',title: '',text: 'Soulmate in Motion',url:'/myFriend'},
         {src: 'https://github.com/jerry914/mywebsite/blob/master/img/%231.gif?raw=true', title: '', text: 'Program Weaving Series', url: '/creator'},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/ubicomp.png',title: '',text: 'Mimsvai: Human-Computer Interaction Workshop Website',url:'', new_url:'https://mimsvai.github.io/'},
-        {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/junyi.png',title: '',text: 'Magic Pocket of Primary School Students',url: '',new_url:'https://www.junyiacademy.org/article/13e71653374f4531b3028b8c3a8bc242'},
+        // {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/junyi.png',title: '',text: 'Magic Pocket of Primary School Students',url: '',new_url:'https://www.junyiacademy.org/article/13e71653374f4531b3028b8c3a8bc242'},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/edu-3.jpg',title: '',text: 'Raspberry Foundation - Translate Volunteer',url:''},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/web-1.png',title: '',text: 'Aesthetic education platform sub-project website construction, responsible for the front-end webpage design. ',url:''},
-        {src: 'https://drive.google.com/uc?export=view&id=1aZVbtZZ3KovhsDQboloh3c3I3oR0d37W',title: '',text: 'Ardiuino! ',url: '/mg'},
+        // {src: 'https://drive.google.com/uc?export=view&id=1aZVbtZZ3KovhsDQboloh3c3I3oR0d37W',title: '',text: 'Ardiuino! ',url: '/mg'},
         {src: 'https://github.com/jerry914/mywebsite/blob/master/img/%232.png?raw=true',title: '',text: 'Little Min\'s Magic Clock',url : '/magicClock'},
         {src: 'https://raw.githubusercontent.com/jerry914/mywebsite/master/img/web-4.jpg',title: '',text: 'Periodic table stepping on mines',url: "/chesweeper"} ,
       ],
@@ -62,11 +54,6 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-.title {
-  margin: 30px;
-  margin-top: 0;
-  height: 5vh;
-  line-height: 5vh; }
 
 .iconLink img {
   width: 25px;
@@ -98,18 +85,10 @@ export default {
   .title {
     margin: auto; } }
 
-.footContainer {
-  position: relative;
-  background-color: #1E4059;
-  width: 100vw;
-  height: 100px;
-  text-align: center;
-  color: white;
-  padding-top: 10px; }
 
 .cardContainer {
-  position: absolute;
   right: 0px;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
@@ -136,7 +115,7 @@ export default {
 .maskText {
   color: #fff;
   font-size: 24px;
-  font-weight: 100; }
+  font-weight: 200; }
 
 .mask {
   position: relative;
